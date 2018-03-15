@@ -5,9 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## The Challenge
 You have an API that allows you to look up countries based on partial names located at `http://localhost:3000/api/countries?q=<your+input>`. Use this endpoint to implement a text input with autocomplete functionality.
 
-The component will ideally meet the following requirements:
+The solution should meet the minimum following requirements:
 - As user enters text into the input, a lookup is performed and suggested results are presented.
 - If user selects an option from the results list, the text input's value is then set to that country's name.
+
+- The app should also have another component that displays the currently selected country.
 
 # Create React App
 
