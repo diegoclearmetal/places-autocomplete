@@ -3,13 +3,24 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). It also includes a simple Node API with a countries lookup endpoint to provide you with something to integrate your UI with.
 
 ## The Challenge
-You have an API that allows you to look up countries based on partial names located at `http://localhost:3000/api/countries?q=<your+input>`. Use this endpoint to implement a text input with autocomplete functionality.
+
+Your challenge is to implement an autocompleting text input that displays its suggestions in a menu that is on top of the content below it.
+
+#### Environment
+- You have an API that allows you to look up countries based on partial names located at `http://localhost:3000/api/countries?q=<your+input>`. You can use this for your network calls.
+- By default you have the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) [axios](https://github.com/axios/axios) for XHR. Feel free to use your favorite XHR library if you wish.
+- Your UI is a React app that consists of a page displaying some content as well as a text input.
 
 The solution should meet the minimum following requirements:
-- As user enters text into the input, a lookup is performed and suggested results are presented.
+- As user enters text into the input, a lookup is performed and suggested results are presented, covering any content below.
 - If user selects an option from the results list, the text input's value is then set to that country's name.
-
 - The app should also have another component that displays the currently selected country.
+
+### Bonus Challenges
+- Can we make it look nicer? Show off your CSS chops with some better styling.
+- What are some ways we can optimize the component for performance and reduce load on the server?
+
+**The docs below are on using `create-react-app` if you haven't before or need a quick reference.**
 
 # Create React App
 
