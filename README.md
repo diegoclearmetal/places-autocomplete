@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). It also includes a simple Node API with a countries lookup endpoint to provide you with something to integrate your UI with.
 
+## Getting Started
+- Clone this repo onto your local machine
+- `cd` to the repo directory on your machine
+- run `yarn install` to install dependencies
+- run `yarn start` to run the API & Client concurrently
+
 ## The Challenge
 
 Your challenge is to implement an autocompleting text input that displays its suggestions in a menu that is on top of the content below it.
