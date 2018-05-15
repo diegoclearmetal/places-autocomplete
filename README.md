@@ -14,7 +14,7 @@ Your challenge is to implement an autocompleting text input that displays its su
 
 #### Environment
 - You have an API that allows you to look up countries based on partial names located at `http://localhost:3000/api/countries?q=<your+input>`. You can use this for your network calls.
-- By default you have the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) [axios](https://github.com/axios/axios) for XHR. Feel free to use your favorite XHR library if you wish.
+- By default you have the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) and [axios](https://github.com/axios/axios) available for XHR calls. Feel free to use your favorite XHR library if you wish.
 - Your UI is a React app that consists of a page displaying some content as well as a text input.
 
 The solution should meet the minimum following requirements:
