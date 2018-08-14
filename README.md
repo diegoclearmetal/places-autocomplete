@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). It also includes a simple Node API with a countries lookup endpoint to provide you with something to integrate your UI with.
 
 ## The Challenge
-You have an API that allows you to look up countries based on partial names located at `http://localhost:3000/api/countries?q=<your+input>`. Use this endpoint to implement a text input with autocomplete functionality.
+You have an API that allows you to look up countries based on partial names located at `/api/countries?q=<your+input>`. Use this endpoint to implement a text input with autocomplete functionality.
 
 The solution should meet the minimum following requirements:
 - As user enters text into the input, a lookup is performed and suggested results are presented.
